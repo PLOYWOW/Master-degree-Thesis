@@ -4,15 +4,15 @@ import numpy as np
 model_name = ['VGG16+Dropout','VGG16','VGG16+Batch Normalization','Xception+Dropout','Xception','AlexNet']
 mean = []
 max_value = []
-max_number = []
+max_number = [] #No. of image that has max error
 min_value = []
-min_number = []
+min_number = [] #No. of image that has min error
 
 n = ['image', 'blank1', 'state', 'blank2', 'truth_x', 'truth_y', 'blank3', 'estimate_x', 'estimate_y', 'blank4', 'error']
 
 for i in range(len(model_name)):
     df = pd.read_csv('C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Result/Pupil detection/D2 Data set/Result Files/'+model_name[i]+'/result.csv',header = None,names=n)
-    mean.append(df["error"].mean())
+    mean.append(df['error'].mean())
     max_value.append(df['error'][df['error'].argmax()])
     max_number.append(df['error'].argmax())
     min_value.append(df['error'][df['error'].argmin()])
