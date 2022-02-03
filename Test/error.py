@@ -30,3 +30,4 @@ error.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Result/Pupil de
 
 print('a')
 print('b')
+print('c')
