@@ -41,4 +41,5 @@ dfw = pd.DataFrame(error)
 dfw.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Code/Test/test_error_AllModel.csv")
 
 print('a')
+print('b')
 
