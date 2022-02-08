@@ -40,9 +40,4 @@ error = {
 dfw = pd.DataFrame(error)
 dfw.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Code/Test/test_error_AllModel.csv")
 
-print(0)
-print(1)
-print(2)
-print(3)
-print(4)
-print(5)
+
