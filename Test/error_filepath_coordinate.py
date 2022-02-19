@@ -88,7 +88,3 @@ AlexNet = pd.DataFrame(AlexNet)
 dfw = pd.concat([VGG16_Dropout, VGG16, VGG16_BatchNormalization, Xception_Dropout, Xception, AlexNet],keys=['VGG16_Dropout', 'VGG16', 'VGG16_BatchNormalization', 'Xception_Dropout', 'Xception', 'AlexNet'])
 dfw.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Code/Test/extract.csv")
 
-print(1)
-print(2)
-print(3)
-print(4)
