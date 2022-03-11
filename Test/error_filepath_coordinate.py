@@ -90,5 +90,3 @@ dfw.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Code/Test/extract
 
 
 
-print(1)
-print(2)
