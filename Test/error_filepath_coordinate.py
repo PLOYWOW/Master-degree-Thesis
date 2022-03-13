@@ -89,5 +89,3 @@ dfw = pd.concat([VGG16_Dropout, VGG16, VGG16_BatchNormalization, Xception_Dropou
 dfw.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Code/Test/extract.csv")
 
 
-
-print(1)
