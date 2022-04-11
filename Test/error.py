@@ -29,3 +29,4 @@ error = pd.concat([model_name,mean,max_value,max_number,min_value,min_number],ax
 error.to_csv("C:/Users/ployw/OneDrive/Desktop/Kyutech/Lab/Thesis/Result/Pupil detection/D2 Data set/Extract Results/error_all_models/error.csv")
 
 print("1")
+print("2")
