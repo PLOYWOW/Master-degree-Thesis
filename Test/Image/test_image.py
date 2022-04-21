@@ -21,7 +21,6 @@ plt.show()
 
 cv2.imwrite('test2.jpg',hey)
 
-print(1)
-print(2)
+
 
 
